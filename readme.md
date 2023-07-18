@@ -1,1 +1,13 @@
 #openwrt路由器的管理脚本
+- wifi-reboot.sh 有些路由器有断流的情况，这个脚本用来检测系统日志然后自动重启WIFI服务的，实际上好像作用不大
+- signal-change.sh 晚上周围用WIFI的多有点卡，自动在晚上增强WIFI信号
+- traffic_network.sh 通过crontab定时记录路由器WAN的流量
+---
+下面是树莓派用的
+- network-detetive.sh探测在线、离线，语音提示
+- monitor_temp是检测树莓派的CPU温度,已经添加到network-detetive.sh去了
+- aralm.sh 通过微软的tts整点报时，配合crontab使用
+---
+- mp3文件可以用TTS文本转语音自己生成哦
+- /mnt/sda1是我路由器u盘的路径，你需要自己改哦
+---
