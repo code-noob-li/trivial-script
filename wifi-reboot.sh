@@ -1,20 +1,20 @@
 #!/bin/sh
 
-str1=`logread | tail -n 25 |grep "AP-STA-DISCONNECTED"`
+IFS=$'\n' 
 
-flagstr="AP-STA-DISCONNECTED"
-flagstr1="deauthenticated due to inactivity"
+str1=`logread | tail -n 25 `
 
-echo $str1
-#echo flagstr
-
+flagstr=".*AP\-STA\-DISCONNECTED.*"
+flagstr1=".*deauthenticated\sdue\sto\sinactivity.*"
+flagstr2=".*did\snot\sacknowledge\sauthentication\sresponse.*"
 
 n=0
 
 for i in $str1
 do
-    #echo $i
-    if [[ "$i" == "$flagstr" || "$i" == "$flagstr1" ]] 
+    echo $i
+    #if [[ $i == "test" ]]
+    if [[ str1 =~ flagstr ]] || [[ str1 =~ flagstr1 ]] || [[ str1 =~ flagstr2 ]]
     then
         n=`expr  $n + 1`
     fi
