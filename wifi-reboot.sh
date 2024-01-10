@@ -14,7 +14,7 @@ for i in $str1
 do
     echo $i
     #if [[ $i == "test" ]]
-    if [[ str1 =~ flagstr ]] || [[ str1 =~ flagstr1 ]] || [[ str1 =~ flagstr2 ]]
+    if [[ "$i" =~ "$flagstr" || "$i" =~ "$flagstr1" || "$i" =~ "$flagstr2" ]]
     then
         n=`expr  $n + 1`
     fi
