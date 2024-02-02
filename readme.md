@@ -7,6 +7,7 @@
 - network-detetive.sh探测在线、离线，语音提示
 - monitor_temp是检测树莓派的CPU温度,已经添加到network-detetive.sh去了
 - aralm.sh 通过微软的tts整点报时，配合crontab使用
+- at_aralm_sugar.py 建立一个api可以通过手机访问来设置2小时后定时播报提醒闹钟
 ---
 - mp3文件可以用TTS文本转语音自己生成哦
 - /mnt/sda1是我路由器u盘的路径，你需要自己改哦
