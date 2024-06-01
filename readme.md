@@ -12,4 +12,10 @@
 - mp3文件可以用TTS文本转语音自己生成哦
 - /mnt/sda1是我路由器u盘的路径，你需要自己改哦
 ---
+下面是ESP8266用的
+- main.py esp8266的micropython固件代码
+---
+语言模型调用API
+- llm-api-stream.py 流式调用
+- llm-api.py 普通调用
 
