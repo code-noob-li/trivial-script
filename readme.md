@@ -18,4 +18,10 @@
 语言模型调用API
 - llm-api-stream.py 流式调用
 - llm-api.py 普通调用
+---
+下面是安卓手机用的，配合termux
+- raspi_ipv6_login.sh 登录树莓派SSH，通过2个参数填入IP段
+- tty.py 手机调用edge-tts配合termux-api进行语音播报
+
+
 
