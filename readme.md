@@ -13,7 +13,8 @@
 - /mnt/sda1是我路由器u盘的路径，你需要自己改哦
 ---
 #### 下面是ESP8266用的
-- main.py esp8266的micropython固件代码
+- main.py esp8266的micropython固件代码,灯光控制
+- main2.py esp8266，MICROPYTHON 加湿器控制
 ---
 #### 语言模型调用API
 - llm-api-stream.py 流式调用
@@ -23,5 +24,6 @@
 - raspi_ipv6_login.sh 登录树莓派SSH，通过2个参数填入IP段
 - tty.py 手机调用edge-tts配合termux-api进行语音播报
 
-
-
+### 通用
+- create-pdf.py 图片打包成PDF文件
+---
