@@ -16,6 +16,7 @@
 - main.py esp8266的micropython固件代码,灯光控制
 - main-hum.py esp8266，MICROPYTHON 加湿器控制
 - main-ch9329.py esp8266，MICROPYTHON 键盘控制
+- ir.ino esp8266的红外遥控
 ---
 #### 语言模型调用API
 - llm-api-stream.py 流式调用
