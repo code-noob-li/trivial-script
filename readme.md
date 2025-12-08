@@ -28,4 +28,5 @@
 
 ### 通用
 - create-pdf.py 图片打包成PDF文件
+- pdf_generator_qt.py 
 ---
