@@ -12,11 +12,12 @@
 - mp3文件可以用TTS文本转语音自己生成哦
 - /mnt/sda1是我路由器u盘的路径，你需要自己改哦
 ---
-#### 下面是ESP8266用的
+#### 下面是ESP8266/ESP32用的
 - main.py esp8266的micropython固件代码,灯光控制
 - main-hum.py esp8266，MICROPYTHON 加湿器控制
 - main-ch9329.py esp8266，MICROPYTHON 键盘控制
 - ir.ino esp8266的红外遥控
+- esp_bluetooth_keyboard.ino ESP32的蓝牙键盘扩展，主要是媒体键
 ---
 #### 语言模型调用API
 - llm-api-stream.py 流式调用
@@ -28,5 +29,4 @@
 
 ### 通用
 - create-pdf.py 图片打包成PDF文件
-- pdf_generator_qt.py 
 ---
